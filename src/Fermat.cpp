@@ -10,6 +10,7 @@ void Fermat(mpz_t n, mpz_t p, mpz_t q)
 	{
 		mpz_set(p, x);
 		mpz_set(q, x);
+		return;
 	}
 
 	do
@@ -22,6 +23,7 @@ void Fermat(mpz_t n, mpz_t p, mpz_t q)
 			mpz_sqrt(y, y2);
 			mpz_sub(p, x, y);
 			mpz_add(q, x, y);
+			return;
 		}
 	} while(mpz_cmp(x, n) < 0);
 }
