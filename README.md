@@ -1,3 +1,9 @@
 # Integer-Factorization
-In this project, we implement integer factorization algorithms in C++.
-GMP library is used for arbitrary precision integer arithmetic.
+In this project, we implement some integer factorization algorithms in C++.
+* Trial Division
+* Fermat's Factorization
+* Quadratic Sieve
+
+# Used Libraries
+* GMP (The GNU Multiple Precision Arithmetic Library)
+* NTL (Number Theory Librar)y
